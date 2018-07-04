@@ -18,7 +18,10 @@ from django.conf.urls import include, url
 
 urlpatterns = [
     url('admin/', admin.site.urls),
+    url(r'^Adminapp/', include('Adminapp.urls')),
     url(r'^hrmsapp/', include('hrmsapp.urls')),
-    url(r'^managerapp/', include('managerapp.urls'))
+    url(r'^managerapp/', include('managerapp.urls')),
+    url(r'^Teamleadapp/', include('Teamleadapp.urls')),
+    url(r'^Employeeapp/', include('Employeeapp.urls')),
 
 ]
