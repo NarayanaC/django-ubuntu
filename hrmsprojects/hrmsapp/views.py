@@ -5,3 +5,6 @@ from django.shortcuts import HttpResponse, render
 
 def home(request):
     return HttpResponse('hello')
+
+def hell(request):
+    return HttpResponse('hello')
