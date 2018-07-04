@@ -8,3 +8,6 @@ def home(request):
 
 def hell(request):
     return HttpResponse('hello')
+
+def bell(request):
+    return HttpResponse('hello')
